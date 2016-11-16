@@ -1,0 +1,114 @@
+
+
+.header{
+	background-color: #444444;
+	padding-left: 170px;
+}
+
+.logo{
+	background-color: #ff8000;
+	width: 140px;
+	height: 35px;
+	margin-top: 7px;
+	margin-bottom:  8px;
+	float: left;
+}
+
+.topNav{
+	margin-left:77px;
+	float: left;
+}
+
+.topNav li{
+	float: left;
+	margin-right: 53px;
+	list-style: none;
+}
+
+.topNav li a{
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 18px;
+	color: #aaaaaa;
+	text-decoration: none;
+}
+
+.upperMain{
+	height: 485px;
+	background-color: #71c4ea;
+}
+
+.lowerMain{
+	padding-bottom: 110px;
+	padding-top: 40px;
+}
+
+.heading{
+	text-align: center;
+	font-size: 36px;
+	font-family: Arial;
+}
+
+.thumbNails{
+	width: 57%;
+	margin: 70px auto 0 auto;
+}
+
+.thumbNails li{
+	float: left;
+	list-style: none;
+	width: 170px;
+	margin-right: 45px;
+}
+
+.figure{
+	background-color: #efefef;
+	height: 140px;
+	width: 140px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.caption{
+	color: #888888;
+	font-size: 18px;
+	font-family: Arial;
+	text-align: center;
+}
+
+.caption:hover{
+	color: #444444;
+}
+
+
+.footer{
+	background-color: #ececec;
+	height: 50px;
+}
+
+.footNav{
+float: left;
+margin-left:500px;	
+}
+
+.footNav li{
+	float: left;
+	margin-right: 40px;
+	list-style: none;
+}
+
+.footNav li a{
+	color: #ff8000;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+.footNav li a:hover{
+	color: #444444;
+}
+
+.clear{
+	clear: both;
+}
