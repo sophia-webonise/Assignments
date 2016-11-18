@@ -1,0 +1,318 @@
+html,body,button,div,span,h1,h2,h3,h4,h5,p,a,img,small,strong,i,input,ul,li,form,label,table,caption,figure,figcaption,footer,header,section {
+border:0;
+font-size:100%;
+font:inherit;
+vertical-align:baseline;
+margin:0;
+padding:0;
+}
+
+body {
+line-height:1;
+}
+
+ul {
+list-style:none;
+}
+
+.clear {
+clear:both;
+}
+
+.banner {
+background:url(../images/bannerImage.jpg) no-repeat;
+background-size:100% 100%;
+padding:13px 0 150px;
+}
+
+.container {
+max-width:1170px;
+text-align:center;
+margin:0 auto;
+}
+
+.logo {
+float:left;
+}
+
+.header ul {
+float:right;
+}
+
+.header li {
+float:left;
+margin-left:39px;
+}
+
+.header li a {
+display:block;
+font-size:18px;
+line-height:56px;
+text-align:center;
+font-family:"Open Sans";
+color:#FFF;
+text-decoration:none;
+font-weight:600;
+}
+
+.header li a:hover {
+color:#dbdbdb;
+}
+
+.banner h1 {
+margin-top:251px;
+font-size:60px;
+line-height:66px;
+font-family:Amaranth, sans-serif;
+color:#FFF;
+}
+
+.banner span {
+display:block;
+font-size:18px;
+font-family:"Open Sans";
+color:#FFF;
+line-height:62px;
+}
+
+.check {
+margin-top:52px;
+display:inline-block;
+text-decoration:none;
+line-height:50px;
+font-size:18px;
+font-family:"Open Sans";
+color:#FFF;
+background-color:#ff2b4a;
+border-radius:4px;
+width:227px;
+}
+
+.section1 {
+background-color:#ff2b4a;
+padding-top:69px;
+padding-bottom:60px;
+}
+
+.section1 h2 {
+font-size:36px;
+font-family:Amaranth, sans-serif;
+color:#FFF;
+line-height:42px;
+}
+
+.section1 ul {
+width:923px;
+margin:33px auto 0;
+}
+
+.section1 li {
+float:left;
+text-align:center;
+margin-right:72px;
+width:127px;
+}
+
+.section1 li a {
+display:block;
+text-decoration:none;
+color:#FFF;
+font-size:18px;
+font-family:"Open Sans";
+line-height:48px;
+}
+
+.section1 li a:hover {
+text-decoration:underline;
+}
+
+.photoSection {
+padding-top:72px;
+}
+
+.photoSection li {
+float:left;
+position:relative;
+margin:0 30px 60px 0;
+}
+
+.hoverDiv {
+display:none;
+}
+
+.productDetails {
+display:none;
+position:absolute;
+top:233px;
+left:188px;
+}
+
+.photoSection li:hover .hoverDiv {
+display:block;
+position:absolute;
+left:0;
+top:0;
+width:570px;
+height:570px;
+text-align:center;
+background-color:#3f51b5;
+opacity:0.7;
+}
+
+.productName {
+display:inline-block;
+color:#FFF;
+font-family:Amaranth, sans-serif;
+font-size:36px;
+font-weight:700;
+line-height:40px;
+margin-bottom:12px;
+}
+
+.productPrice {
+display:block;
+color:#FFF;
+font-size:24px;
+font-family:Amaranth, sans-serif;
+line-height:28px;
+}
+
+.productDetails a {
+display:inline-block;
+text-decoration:none;
+font-size:18px;
+line-height:50px;
+font-family:"Open Sans";
+color:#FFF;
+background-color:#ff2b4a;
+border-radius:4px;
+width:143px;
+margin-top:37px;
+}
+
+.photoSection ul li.clear {
+float:none;
+margin:0;
+}
+
+h3 {
+font-size:36px;
+font-family:Amaranth, sans-serif;
+color:#3f51b5;
+line-height:38px;
+margin-bottom:50px;
+}
+
+.delivery {
+background-color:#f5f6f7;
+}
+
+.delivery ul {
+padding:63px 0 29px 70px;
+}
+
+.delivery li {
+float:left;
+width:230px;
+text-align:center;
+margin-right:170px;
+}
+
+.icon1 {
+background:url(../images/qualityIcon.png) no-repeat center center;
+height:76px;
+}
+
+.icon2 {
+background:url(../images/deliveryIcon.png) no-repeat center center;
+height:76px;
+}
+
+.icon3 {
+background:url(../images/indiaIcon.png) no-repeat center center;
+height:76px;
+}
+
+.delivery span {
+display:block;
+font-size:18px;
+font-family:"Open Sans";
+color:#3f51b5;
+line-height:72px;
+}
+
+.footer {
+background-color:#3f51b5;
+padding:56px 0 58px;
+}
+
+.footer h5 {
+display:inline-block;
+font-size:36px;
+font-family:Amaranth, sans-serif;
+color:#FFF;
+line-height:52px;
+max-width:550px;
+}
+
+.share {
+display:block;
+font-size:18px;
+font-family:"Open Sans";
+color:#FFF;
+line-height:74px;
+}
+
+.emailForm {
+display:inline-block;
+margin:19px 0 86px;
+}
+
+.emailForm input {
+float:left;
+border:1px solid #FFF;
+border-radius:4px;
+background-color:#3f51b5;
+min-width:400px;
+box-sizing:border-box;
+padding:15px 20px;
+}
+
+.emailForm button {
+background-color:#ff2b4a;
+text-align:center;
+color:#FFF;
+font-size:18px;
+font-family:"Open Sans";
+width:170px;
+cursor:pointer;
+box-sizing:border-box;
+padding:16px 0;
+}
+
+.copyRight {
+display:block;
+font-size:14px;
+font-family:"Open Sans";
+color:#b0b6dc;
+line-height:18px;
+}
+
+figcaption,figure,footer,header,section,.logo img,.photoSection li:hover .productDetails,.photoSection img {
+display:block;
+}
+
+.check:hover,.productDetails a:hover,.emailForm button:hover {
+color:#ff2b4a;
+background-color:#FFF;
+}
+
+.section1 li:nth-child(5n),.photoSection li:nth-child(2n),.delivery li:nth-child(3) {
+margin-right:0;
+}
+
+.section1 ul li.clear,.delivery ul li.clear {
+float:none;
+width:0;
+margin:0;
+}
