@@ -1,4 +1,4 @@
-html,body,button,div,span,h1,h2,h3,h4,h5,p,a,img,small,strong,i,input,ul,li,form,label,table,caption,figure,figcaption,footer,header,section {
+html,body,button,div,span,h1,h2,h3,h4,h5,p,a,img,input,ul,li,form {
 border:0;
 font-size:100%;
 font:inherit;
@@ -63,7 +63,7 @@ color:#dbdbdb;
 margin-top:251px;
 font-size:60px;
 line-height:66px;
-font-family:Amaranth, sans-serif;
+font-family:'Amaranth', sans-serif;
 color:#FFF;
 }
 
@@ -75,7 +75,7 @@ color:#FFF;
 line-height:62px;
 }
 
-.check {
+.checkButton {
 margin-top:52px;
 display:inline-block;
 text-decoration:none;
@@ -88,32 +88,32 @@ border-radius:4px;
 width:227px;
 }
 
-.section1 {
+.partTypeSection {
 background-color:#ff2b4a;
 padding-top:69px;
 padding-bottom:60px;
 }
 
-.section1 h2 {
+.partTypeSection h2 {
 font-size:36px;
-font-family:Amaranth, sans-serif;
+font-family:'Amaranth', sans-serif;
 color:#FFF;
 line-height:42px;
 }
 
-.section1 ul {
+.partTypeSection ul {
 width:923px;
 margin:33px auto 0;
 }
 
-.section1 li {
+.partTypeSection li {
 float:left;
 text-align:center;
 margin-right:72px;
 width:127px;
 }
 
-.section1 li a {
+.partTypeSection li a {
 display:block;
 text-decoration:none;
 color:#FFF;
@@ -122,7 +122,7 @@ font-family:"Open Sans";
 line-height:48px;
 }
 
-.section1 li a:hover {
+.partTypeSection li a:hover {
 text-decoration:underline;
 }
 
@@ -137,18 +137,20 @@ margin:0 30px 60px 0;
 }
 
 .hoverDiv {
-display:none;
+	opacity: 0;
+	transition: opacity 2s;
 }
 
-.productDetails {
+
+.productDetails {	
 display:none;
 position:absolute;
 top:233px;
 left:188px;
 }
 
+
 .photoSection li:hover .hoverDiv {
-display:block;
 position:absolute;
 left:0;
 top:0;
@@ -162,7 +164,7 @@ opacity:0.7;
 .productName {
 display:inline-block;
 color:#FFF;
-font-family:Amaranth, sans-serif;
+font-family:'Amaranth', sans-serif;
 font-size:36px;
 font-weight:700;
 line-height:40px;
@@ -173,7 +175,7 @@ margin-bottom:12px;
 display:block;
 color:#FFF;
 font-size:24px;
-font-family:Amaranth, sans-serif;
+font-family:'Amaranth', sans-serif;
 line-height:28px;
 }
 
@@ -197,7 +199,7 @@ margin:0;
 
 h3 {
 font-size:36px;
-font-family:Amaranth, sans-serif;
+font-family:'Amaranth', sans-serif;
 color:#3f51b5;
 line-height:38px;
 margin-bottom:50px;
@@ -218,17 +220,17 @@ text-align:center;
 margin-right:170px;
 }
 
-.icon1 {
+.badgeIcon {
 background:url(../images/qualityIcon.png) no-repeat center center;
 height:76px;
 }
 
-.icon2 {
+.truckIcon {
 background:url(../images/deliveryIcon.png) no-repeat center center;
 height:76px;
 }
 
-.icon3 {
+.mapIcon{
 background:url(../images/indiaIcon.png) no-repeat center center;
 height:76px;
 }
@@ -249,7 +251,7 @@ padding:56px 0 58px;
 .footer h5 {
 display:inline-block;
 font-size:36px;
-font-family:Amaranth, sans-serif;
+font-family:'Amaranth', sans-serif;
 color:#FFF;
 line-height:52px;
 max-width:550px;
@@ -298,20 +300,20 @@ color:#b0b6dc;
 line-height:18px;
 }
 
-figcaption,figure,footer,header,section,.logo img,.photoSection li:hover .productDetails,.photoSection img {
+.logo img,.photoSection li:hover .productDetails,.photoSection img {
 display:block;
 }
 
-.check:hover,.productDetails a:hover,.emailForm button:hover {
+.checkButton:hover,.productDetails a:hover,.emailForm button:hover {
 color:#ff2b4a;
 background-color:#FFF;
 }
 
-.section1 li:nth-child(5n),.photoSection li:nth-child(2n),.delivery li:nth-child(3) {
+.partTypeSection li:nth-child(5n),.photoSection li:nth-child(2n),.delivery li:nth-child(3) {
 margin-right:0;
 }
 
-.section1 ul li.clear,.delivery ul li.clear {
+.partTypeSection ul li.clear,.delivery ul li.clear {
 float:none;
 width:0;
 margin:0;
