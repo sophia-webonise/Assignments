@@ -8,7 +8,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, i, ul, li, form, label
 }
 body {
     line-height: 1;
-    color: white;
+    color: white;font-family: "Open Sans";
 }
 ul {
     list-style: none;
@@ -60,7 +60,7 @@ li.clear {
 .middleNav li a {
     display: block;
     font-size: 14px;
-    font-family: "Open Sans";
+    
     color: #ee1c25;
     line-height: 26px;
     border-bottom: 1px solid white;
@@ -75,7 +75,7 @@ li.clear {
 .rightNav a {
     float: right;
     font-size: 13px;
-    font-family: "Open Sans";
+    
     color: #ee1c25;
     line-height: 16px;
 }
@@ -156,14 +156,14 @@ border-bottom: 1px solid #ee1c25;
 }
 .banner h2 {
     font-size: 28px;
-    font-family: "Open Sans";
+    
     color: white;
     line-height: 30px;
 }
 .sarees p {
     text-align: left;
     font-size: 14px;
-    font-family: "Open Sans";
+    
     color: white;
     line-height: 22px;
     white-space: pre;/*to preserve line breaks*/
@@ -174,7 +174,7 @@ border-bottom: 1px solid #ee1c25;
     line-height: 40px;
     border: 1px solid white;
     background-color: rgba(255, 255, 255, 0);
-    font-family: "Open Sans";
+    
     margin: 14px 10px 0 0;
     border-radius: 20px;
     padding: 0 22px;
@@ -238,13 +238,13 @@ border-bottom: 1px solid #ee1c25;
     float: left;
     width: 238px;
     font-size: 12px;
-    font-family: "Open Sans";
+    
     font-weight: 300;
     white-space: pre;
     line-height: 14px;
 }
 .bannerFooter p span {
-    font-family: "Open Sans";
+    
     font-weight: 600;
     font-size: 12px;
     line-height: 14px;
@@ -277,7 +277,7 @@ border-bottom: 1px solid #ee1c25;
 .collectionType h2 {
     display: inline-block;
     font-size: 28px;
-    font-family: "Open Sans";
+    
     font-weight: 300;
     line-height: 30px;
     color: #333333;
@@ -292,7 +292,7 @@ border-bottom: 1px solid #ee1c25;
 .collectionDesc {
     display: block;
     font-size: 18px;
-    font-family: "Open Sans";
+    
     line-height: 20px;
     color: #333;
     margin-top: 20px;
@@ -340,7 +340,7 @@ margin-left: 20px;
     text-align:left;
     display: inline-block;
     font-size: 16px;
-    font-family: "Open Sans";
+    
     color: #fff;
     line-height: 18px;
     white-space: pre;
@@ -399,7 +399,7 @@ margin-left: 20px;
 
 .modelName{
     font-size: 18px;
-    font-family: "Open Sans";
+    
     color: black;
     line-height: 20px;
 }
@@ -480,7 +480,7 @@ margin-left: 20px;
 
 .wrapper  h1{
     font-size: 28px;
-    font-family: "Open Sans";
+    
     font-weight: 300;
     color: black;
     line-height: 30px;
@@ -488,7 +488,7 @@ margin-left: 20px;
 
 .wrapper  p{
     font-size: 13px;
-    font-family: "Open Sans";
+    
     color: rgba(0, 0, 0, 0.5);
     white-space: pre;
     margin: 12px 0;
@@ -498,7 +498,7 @@ margin-left: 20px;
 .wrapper  span  {
     display: block;
     font-size: 13px;
-    font-family: "Open Sans";
+    
     color: rgb(0, 0, 0);
     line-height: 15px;
 }
@@ -539,7 +539,7 @@ margin-left: 20px;
     line-height: 40px;
     border: 1px solid #d62a25;
     background-color:transparent;
-    font-family: "Open Sans";
+    
     margin-top: 18px;
     border-radius: 20px;
     padding: 0 20px;
@@ -555,7 +555,7 @@ margin-left: 20px;
     line-height: 40px;
     border: 1px solid white;
     background-color:transparent;
-    font-family: "Open Sans";
+    
     margin: 14px 0 0 0;
     border-radius: 20px;
     padding: 0 20px;
@@ -580,7 +580,7 @@ margin-left: 20px;
 .aboutSection p{
 
     font-size: 18px;
-    font-family: "Open Sans";
+    
     font-weight: 300;
     color:black;  
     line-height: 24px;
@@ -593,7 +593,7 @@ margin-left: 20px;
     line-height: 40px;
     border: 1px solid #d62a25;
     background-color:transparent;
-    font-family: "Open Sans";
+    
     margin: 25px 0 41px 0;
     border-radius: 20px;
     padding: 0 20px;
@@ -631,7 +631,7 @@ margin-left: 20px;
 .footerList ul li{
 
     font-size: 14px;
-    font-family: "OpenSans";
+    /*font-family: "OpenSans";*/
     color: black;
     line-height: 28px;
 }
@@ -671,7 +671,7 @@ margin-left: 20px;
 .contact span{
     display: block;
     font-size: 12px;
-    font-family: "Open Sans";
+    
     color: black;
     line-height: 22px;
 }
@@ -762,7 +762,7 @@ margin-left: 20px;
 .copyright{
     float: left;
     font-size: 14px;
-    font-family: "Open Sans";
+    
     color: #aaaaaa;
     line-height: 40px;
     text-align: left;
