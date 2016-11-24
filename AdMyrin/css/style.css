@@ -79,6 +79,13 @@ li.clear {
     color: #ee1c25;
     line-height: 16px;
 }
+
+.rightNav li:nth-child(3) a:hover{
+    /*text-decoration: underline;*/
+border-bottom: 1px solid #ee1c25;
+}
+
+
 .rightNav li {
     float: left;
     margin-left: 30px;
