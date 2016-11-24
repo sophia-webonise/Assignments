@@ -1,0 +1,833 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, i, ul, li, form, label {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+    line-height: 1;
+    color: white;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.clear {
+    clear: both;
+    margin: 0;
+}
+li.clear {
+    float: none;
+    width: 0;
+    height: 0;
+}
+.container {
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+.header {
+    padding: 5px 0 9px 0;
+}
+.logo {
+    float: left;
+    background: url("../images/logo.png") no-repeat center center;
+    width: 110px;
+    height: 36px;
+}
+.middleNav {
+    float: left;
+    margin-top: 9px;
+}
+.dropDownIcon {
+    display: inline-block;
+    background: url(../images/downArrowIcon.png) no-repeat center center;
+    background-size: contain;
+    width: 12px;
+    height: 8px;
+}
+.middleNav li {
+    margin-left: 15px;
+    float: left;
+}
+.middleNav li:first-child {
+    margin-left: 19px;
+}
+.middleNav li a {
+    display: block;
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: #ee1c25;
+    line-height: 26px;
+    border-bottom: 1px solid white;
+}
+.middleNav li a:hover {
+    border-bottom: 1px solid #ee1c25;
+}
+.rightNav {
+    float: right;
+    margin: 14px 12px 5px 0;
+}
+.rightNav a {
+    float: right;
+    font-size: 13px;
+    font-family: "Open Sans";
+    color: #ee1c25;
+    line-height: 16px;
+}
+.rightNav li {
+    float: left;
+    margin-left: 30px;
+}
+.rightNav i:not(.dropDownIcon) {
+    float: left;
+    background-size: contain;
+    width: 14px;
+    height: 16px;
+}
+.searchIcon {
+    background: url(../images/searchIcon.png) no-repeat center center;
+}
+.userIcon {
+    background: url(../images/userIcon.png) no-repeat center center;
+}
+.lockIcon {
+    background: url(../images/lockIcon.png) no-repeat center center;
+}
+.banner img {
+    display: block;
+    width: 100%;
+    position: relative;
+    height: 601px;
+}
+
+.scrollIconLeft a, .scrollIconRight a{
+    display: block;
+    height: 36px;
+    width: 20px;
+    
+}
+
+.scrollIconLeft{
+    position: absolute;
+       background: url("../images/scrollArrowLeft.png") no-repeat center center;
+        left:10px; 
+        top:50%;
+}
+.scrollIconRight{
+    position: absolute;
+    background: url("../images/scrollArrowRight.png") no-repeat center center;
+        right: 10px;
+        top: 50%;
+}
+
+.banner .container {
+    text-align: center;
+    position: absolute;
+    top:50px;
+    left:0;
+    right: 0;
+    margin: 0 auto;
+}
+.sarees {
+    float: right;
+    margin: 156px 56px 148px 0;
+    text-align: left;
+}
+.banner h1 {
+    display: inline-block;
+    font-size: 60px;
+    line-height: 62px;
+    font-family: "Glegoo Regular";
+    color: white;
+    text-transform: uppercase;
+    border-bottom: 3px solid #d62a25;
+}
+.banner h2 {
+    font-size: 28px;
+    font-family: "Open Sans";
+    color: white;
+    line-height: 30px;
+}
+.sarees p {
+    text-align: left;
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: white;
+    line-height: 22px;
+    white-space: pre;/*to preserve line breaks*/
+    margin-top: 2px;
+}
+.viewLink, .shopLink {
+    display: inline-block;
+    line-height: 40px;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: "Open Sans";
+    margin: 14px 10px 0 0;
+    border-radius: 20px;
+    padding: 0 22px;
+    color: white;
+    min-width: 157px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.viewLink:hover, .shopLink:hover, .viewLinkBig:hover {
+    background-color: #d62a25;
+}
+.shopLink {
+    margin-right: 0px;
+}
+.bannerDots {
+    top: 506px;
+    left: 598px;
+    display: inline-block;
+}
+.bannerDots li:not(.clear), .uniqueDots li:not(.clear) {
+    float: left;
+    margin-right: 8px;
+}
+.bannerDots li:nth-child(6), .uniqueDots li:nth-child(6){
+    margin-right: 0;
+}
+.bannerDots li a:active, .bannerDots li a:hover {
+    background-color: white;
+}
+.bannerDots li a {
+    display: block;
+    width: 7px;
+    height: 7px;
+    border: 1px solid white;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.bannerFooter {
+    text-align: left;
+    border-top: 1px solid;
+    border-top-color: rgba(255, 255, 255, 0.2);
+    margin-top: 17px;
+    padding-top: 21px;
+    box-sizing: border-box;
+}
+.bannerFooter li:not(.clear) {
+    margin-right: 20px;
+    width: 300px;
+    float: left;
+}
+.bannerFooter li div {
+    float: left;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-right: 15px;
+    box-sizing: border-box;
+}
+.bannerFooter p {
+    float: left;
+    width: 238px;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: 300;
+    white-space: pre;
+    line-height: 14px;
+}
+.bannerFooter p span {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+}
+.bannerFooter li:nth-child(3) {
+    margin-right: 0px;
+}
+.replacement {
+    background: url(../images/replacementIcon.png) no-repeat center;
+}
+.shipping {
+    background: url(../images/freeshippingIcon.png) no-repeat center;
+}
+.helpLine {
+    background: url(../images/telephoneIcon.png) no-repeat center;
+}
+.heading {
+    text-align: center;
+    padding: 34px 0 45px 0;
+}
+.collectionName {
+    font-size: 40px;
+    font-family: "Glegoo";
+    line-height: 42px;
+    color: #999999;
+}
+.collectionType {
+    vertical-align: middle;
+}
+.collectionType h2 {
+    display: inline-block;
+    font-size: 28px;
+    font-family: "Open Sans";
+    font-weight: 300;
+    line-height: 30px;
+    color: #333333;
+    margin-top: 15px;
+}
+.dash {
+    display: inline-block;
+    width: 100px;
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 7px;
+}
+.collectionDesc {
+    display: block;
+    font-size: 18px;
+    font-family: "Open Sans";
+    line-height: 20px;
+    color: #333;
+    margin-top: 20px;
+}
+.freshArrival .container, .newCollections .container{
+    position: relative;
+}
+.freshArrival img {
+    float: left;
+}
+.freshArrImgRight {
+    margin-left: 20px;
+}
+.infoImgLeft, .infoImgRight {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    padding: 36px 33px 37px 17px;
+    width: 460px;
+    box-sizing: border-box;
+}
+.infoImgLeft {
+    top: 641px;
+    left: 480px;
+}
+.infoImgRight {
+
+    top: 641px;
+    left: 0px;
+}
+.infoImgLeft a, .infoImgRight a {
+    display: inline-block;
+    margin: 0;
+    margin-left: 5px;
+    
+}
+.info {
+    text-align:left;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: #fff;
+    line-height: 18px;
+    white-space: pre;
+    vertical-align: middle;
+    width: 233px;
+    overflow: hidden;
+}
+
+.newCollections{
+    margin-top: 40px;
+}
+
+
+.modelImages{
+    border: 1px solid #e1e1e1;
+    box-sizing: border-box;
+}
+
+.modelImages li:hover .linkDiv{
+    display: inline-block;
+}
+
+
+.modelImages li:not(.clear){
+    float:left;
+    box-sizing: border-box;
+}
+
+.modelImages li:first-child div{
+    margin-right: 0px;
+    border-left: none;
+}
+
+
+.modelImages li:first-child img{
+    margin-left: 9px;
+}
+
+.modelImages li img{
+    display: block;
+    margin:9px 5px 9px 5px;
+}
+
+.modelImages li img:hover{
+    cursor: pointer;
+}
+
+
+.modelTitle {
+   border-bottom:1px solid #e1e1e1;
+   border-left: 1px solid #e1e1e1;
+   padding:9px 11px 0 11px;
+   text-align: left;
+}
+
+
+.modelName{
+    font-size: 18px;
+    font-family: "Open Sans";
+    color: black;
+    line-height: 20px;
+}
+
+.modelImages li:hover  .modelName{
+    color: #ee1c25;
+}
+
+.modelDesc{
+    font-size: 12px;
+    font-family: "PT Sans";
+    color: #999;
+    line-height: 26pt;
+ 
+}
+
+.linkDiv{
+    text-align: left;
+    display: none;
+    width: 300px;
+    background-color: transparent;
+    padding-left: 71px;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.leftImgDetails{
+    top:576px;
+    left: 10px;
+}
+
+.middleImgDetails{
+    top:576px;
+    left: 320px;
+}
+
+.rightImgDetails{
+    top:576px;
+    left: 629px;
+}
+
+.uniqueDots{
+    display: inline-block;
+    margin: 10px 0 20px 0;
+ }   
+
+.uniqueDots li a:hover{
+    background-color: #999999;
+}
+
+.uniqueDots li a
+{
+    display: block;
+    width: 7px;
+    height: 7px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.satinSaree{
+    display: block;
+    width: 100%;
+    max-height:611px;
+}
+
+.uniqueCollection   .container  {
+    position: relative;   
+}
+
+.wrapper{
+    text-align: left;
+    display: inline-block;
+    position: absolute;
+    top: 250px;
+    left: 480px;
+}
+
+.wrapper  h1{
+    font-size: 28px;
+    font-family: "Open Sans";
+    font-weight: 300;
+    color: black;
+    line-height: 30px;
+}
+
+.wrapper  p{
+    font-size: 13px;
+    font-family: "Open Sans";
+    color: rgba(0, 0, 0, 0.5);
+    white-space: pre;
+    margin: 12px 0;
+    line-height: 15px;
+}
+
+.wrapper  span  {
+    display: block;
+    font-size: 13px;
+    font-family: "Open Sans";
+    color: rgb(0, 0, 0);
+    line-height: 15px;
+}
+
+.wrapper ul{
+    margin-top: 78px;
+    position: relative;
+}
+
+.wrapper ul li:not(.clear){
+    float: left;
+    margin-right: 20px
+}
+
+.wrapper ul li:nth-child(2) {
+    margin-right: 0px;
+}
+
+.wrapper img {
+    display: block;
+    height: 212px;
+}
+
+.leftLink{
+    position: absolute;
+    top: 140px;
+    left: 52px;
+}
+
+.rightLink{
+    position: absolute;
+    top: 140px;
+    left: 300px;
+}
+
+.viewLinkInverse{
+    display: inline-block;
+    line-height: 40px;
+    border: 1px solid #d62a25;
+    background-color:transparent;
+    font-family: "Open Sans";
+    margin-top: 18px;
+    border-radius: 20px;
+    padding: 0 20px;
+    color:#d62a25 ;
+    min-width: 146px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.shopLinkSmall{
+    display: inline-block;
+    line-height: 40px;
+    border: 1px solid white;
+    background-color:transparent;
+    font-family: "Open Sans";
+    margin: 14px 0 0 0;
+    border-radius: 20px;
+    padding: 0 20px;
+    color:white ;
+    min-width: 101px;
+    box-sizing: border-box;
+    text-align: center;  
+}
+
+.shopLinkSmall:hover{
+    background-color:#d62a25 ; 
+}
+
+.adMyrinImg{
+    display: inline-block;
+    background: url("../images/adMyrinImage.png") no-repeat center center;
+    width: 94px;
+    height: 110px;
+    margin-top: 29px;
+}
+
+.aboutSection p{
+
+    font-size: 18px;
+    font-family: "Open Sans";
+    font-weight: 300;
+    color:black;  
+    line-height: 24px;
+    margin-top:10px;
+}
+
+
+.viewLinkInverseBig {
+    display: inline-block;
+    line-height: 40px;
+    border: 1px solid #d62a25;
+    background-color:transparent;
+    font-family: "Open Sans";
+    margin: 25px 0 41px 0;
+    border-radius: 20px;
+    padding: 0 20px;
+    color:#d62a25 ;
+    min-width: 172px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+
+.viewLinkInverse:hover, .viewLinkInverseBig:hover{
+    color:white;  
+    background-color:#d62a25
+}
+
+.footer{
+    position: relative;
+    padding-top: 32px;
+    background-color: #f8f8f8;
+    text-align: left;
+    border-top: 1px solid #dddddd;
+}
+
+.footerList > li:not(.clear){
+    text-align: left;
+    margin-right: 50px;
+    float: left;
+}
+
+.footerList ul{
+    float: left;
+}
+
+.footerList ul li{
+
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: black;
+    line-height: 28px;
+}
+
+.footerList ul li:hover{
+    text-decoration: underline;
+}
+
+.footerList ul li:nth-child(2){
+    margin-top: 8px;
+}
+
+
+.footerList ul li:first-child, .contact h1 {
+    text-decoration: none;
+    min-width: 140px;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 34px;
+    font-family: "Glegoo";
+    color:#868686;
+    border-bottom: 3px solid #cccccc;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.contact h1{
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.contact{
+    float: right;
+    text-align: left;
+}
+
+.contact span{
+    display: block;
+    font-size: 12px;
+    font-family: "Open Sans";
+    color: black;
+    line-height: 22px;
+}
+
+.footer form{
+    margin-top: 10px;
+}
+.emailInput{
+    float: left;
+    height: 36px;
+    border: 1px solid #bbbbbb;
+    padding: 10px 14px;
+    box-sizing: border-box;
+    border-radius: 6px 0 0 6px;
+    width: 215px;
+    border-right: none;
+}
+
+.signUp{
+    height: 36px;
+    border: 1px solid #ee1c25;
+    padding: 10px 14px;
+    box-sizing: border-box;
+    border-radius: 0 6px 6px 0;
+    color: #ee1c25;
+    background: transparent;
+}
+
+.footerList{
+    float: left;
+}
+
+.socialIcons{
+    float: right;
+    min-width: 290px;
+    margin: 56px 0 32px 0;
+}
+.socialIcons li{
+    
+}
+
+.socialIcons a{
+    display: block;
+}
+
+.socialIcons i{
+    display: block;
+    margin-right: 9px;
+    float: left;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #ee1c25;
+}
+
+.fb{
+    background: url("../images/facebookFooterIcon.png") no-repeat center center;
+}
+
+.twitter{
+    background: url("../images/twitterFooterIcon.png") no-repeat center center;
+}
+
+.pintrest{
+    background: url("../images/pinterestFooterIcon.png") no-repeat center center;
+}
+
+.googlePlus{
+    background: url("../images/google+FooterIcon.png") no-repeat center center;
+}
+
+.socialIcons  .fb:hover{
+    background: #ee1c25 url("../images/facebookWhite.png") no-repeat center center;
+}
+
+.socialIcons .twitter:hover{
+    background:#ee1c25 url("../images/twitterWhite.png") no-repeat center center;
+}
+
+.socialIcons .googlePlus:hover{
+    background: #ee1c25 url("../images/googleWhite.png") no-repeat center center;
+}
+
+.socialIcons .pintrest:hover{
+    background:#ee1c25 url("../images/pintrestWhite.png") no-repeat center center;
+}
+
+.copyright{
+    float: left;
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: #aaaaaa;
+    line-height: 40px;
+    text-align: left;
+}
+
+.paymentPartners{
+    float: right;
+}
+.paymentPartners li{
+    float: left;
+    margin-left: 14px;
+}
+
+.paymentPartners i{
+    display: block;
+    min-width: 50px;
+    height: 40px;   
+}
+
+.visa{
+    background: url("../images/visaIcon.png") no-repeat center center;
+}
+
+.masterCard{
+    background: url("../images/masterCardIcon.png") no-repeat center center;
+}
+
+.americanExpress{
+     background: url("../images/americanExpressIcon.png") no-repeat center center;   
+}
+
+.payPal{
+    background: url("../images/paypalIcon.png") no-repeat center center;
+}
+
+.cod{
+    background: url("../images/codIcon.png") no-repeat center center;
+}
+
+.westernUnion{
+    background: url("../images/esternUnionIcon.png") no-repeat center center;
+}
+
+.jcb{
+    background: url("../images/jcbIcon.png") no-repeat center center;
+}
+
+.discover{
+    background: url("../images/dicoverIcon.png") no-repeat center center;
+}
+
+.dinersClub{
+    background: url("../images/dinnersClubIcon.png") no-repeat center center;
+}
+
+
+.scrollToTop{
+    text-align: center;
+    position: absolute;
+    top:48px;
+    right: 60px;
+}
+
+.scrollToTop  i{
+    background: url("../images/topArrow.png") no-repeat center center;
+    display:block;
+    height: 23px;
+    width: 23px;
+    border: 1px solid #ed1c24; 
+    border-radius: 50%;     
+    margin: 0 auto;
+}
+
+.scrollToTop span{
+    font-size: 11px;
+    font-family: "Lato";
+    color:#ed1c24;
+    line-height: 31px;
+}
+
+.scrollToTop a{
+    display: block;
+}
