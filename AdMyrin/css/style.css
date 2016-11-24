@@ -300,12 +300,20 @@ border-bottom: 1px solid #ee1c25;
 .freshArrival .container, .newCollections .container{
     position: relative;
 }
-.freshArrival img {
-    float: left;
+
+.freshArrivalImages li:not(.clear){
+float: left;
+margin-left: 20px;
 }
-.freshArrImgRight {
-    margin-left: 20px;
+
+.freshArrivalImages li:first-child{
+    margin-left: 0;
 }
+
+.freshArrivalImages li img{
+    display: block;
+}
+
 .infoImgLeft, .infoImgRight {
     background-color: rgba(0, 0, 0, 0.8);
     position: absolute;
