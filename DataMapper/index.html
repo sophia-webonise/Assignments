@@ -21,7 +21,7 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
@@ -29,18 +29,18 @@
 		<div class="container">
 			<a href="#" title="Data Mapper" class="logo"></a>
 			<ul>
-				<li><a href="#" title="Surveys">Surveys</a></li>
+				<li  class="active"><a href="#" title="Surveys">Surveys</a></li>
 				<li><a href="#" title="Algorithms">Algorithms</a></li>
 				<li><a href="#" title="Downloads">Downloads</a></li>
 				<li><a href="#" title="Contact">Contact</a></li>
-				<li><a href="#" class="globe" title="Notifications"></a></li>
+				<li><a href="#" class="globe" title="Notifications"></a><div class="notification">4</div></li>
 				<li><a href="#" title="Admin">Admin<i class="dropDownCarret"></i></a></li>
 			</ul>
 			<div class="clear"></div>
 		</div>
 	</header>
 
-	<section class="pageTitle"> <!-- doubt here -->
+	<section class="pageTitle">
 		<div class="container">
 			<h1>Lake Wheeler_GCP_01</h1>
 			<div class="optionsDiv">	
@@ -56,16 +56,16 @@
 		</div>
 	</section>
 
-	<div class="sectionWrapper">
+	<main>
 		<div class="container">
 			<div class="leftContainer">
 				<section class="tabs">
 					<ul class="tabsHead">
-						<li><a href="#">Details</a></li>
+						<li class="active"><a href="#">Details</a></li>
 						<li><a href="#">Source Files</a></li>
 						<li class="clear"></li>
 					</ul>
-						<ul class="sourceData">
+					<ul class="sourceData">
 						<li><span class="parameter">Location</span><span class="details"><i class="fa fa-map-marker" aria-hidden="true"></i>Norfok, VA</span></li>
 						<li><span class="parameter">Survey Date</span><span class="details">09/11/15 18:24:22</span></li>
 						<li><span class="parameter">Sensor</span><span class="details">Visual</span></li>
@@ -79,10 +79,9 @@
 				<h2>Reports with this Survey</h2>
 				<ul>
 					<li>
-						<i class=iconImg></i>
-						<p>Standard 
-	Orthomosaic</p>
-						<i class="downloadIcon"></i>
+						<div class="iconImg"><img src="images/stdOrtho.jpg" alt="Standard Orthomosaic"></img></div>
+						<h3>Standard Orthomosaic</h3>
+						<a href="#" class="downloadIcon" title="Download"></a>
 						<div class="optionsDiv">	
 							<button class="optionsBtn fa fa-chevron-down optionBig" aria-hidden="true"></button>
 							<ul class="dropDown">	
@@ -97,10 +96,9 @@
 					
 
 					<li>
-						<i class=iconImg></i>
-						<p>Volume 
-	Measurement</p>
-						<i class="downloadIcon"></i>
+						<div class="iconImg"><img src="images/volMeasure.jpg" alt="Volume Measurement"></img></div>
+						<h3>Volume Measurement</h3>
+						<a href="#" class="downloadIcon" title="Download"></a>
 						<div class="optionsDiv">	
 							<button class="optionsBtn fa fa-chevron-down optionBig" aria-hidden="true"></button>
 							<ul class="dropDown">	
@@ -115,10 +113,9 @@
 					
 
 					<li>
-						<i class=iconImg></i>
-						<p>Plant Based Row 
-	Counting</p>
-						<i class="downloadIcon"></i>
+						<div class="iconImg"><img src="images/plantRowCountn.jpg"></img></div>
+						<h3>Plant Based Row 	Counting</h3>
+						<a href="#" class="downloadIcon" title="Download"></a>
 						<div class="optionsDiv">	
 							<button class="optionsBtn fa fa-chevron-down optionBig" aria-hidden="true"></button>
 							<ul class="dropDown">	
@@ -137,42 +134,37 @@
 					<h2>Apply Algorithm</h2>
 					<ul>
 						<li>
-						<i class=iconImg></i>
-						<p>Plant Based Row 
-	Counting</p>
-						<a href="#" class="apply">Apply</a>
+						<div class="iconImg"><img src="images/plantRowCountn2.jpg"></img></div>
+						<h3>Plant Based Row Counting</h3>
+						<a href="#" class="apply" title="Apply">Apply</a>
 						<div class="clear"></div>	
 						</li>
 
 						<li>
-						<i class=iconImg></i>
-						<p>Field Uniformity 
-Tool</p>
-						<a href="#" class="apply">Apply</a>
+						<div class="iconImg"><img src="images/fieldUniformityTool.jpg"></img></div>
+						<h3>Field Uniformity Tool</h3>
+						<a href="#" class="apply" title="Apply">Apply</a>
 						<div class="clear"></div>	
 						</li>
 
 						<li>
-						<i class=iconImg></i>
-						<p>Field Uniformity 
-Tool</p>
-						<a href="#" class="apply">Apply</a>
+						<div class="iconImg"><img src="images/fieldUniformityTool.jpg"></img></div>
+						<h3>Field Uniformity Tool</h3>
+						<a href="#" class="apply" title="Apply">Apply</a>
 						<div class="clear"></div>	
 						</li>
 
 						<li>
-						<i class=iconImg></i>
-						<p>Field Uniformity 
-Tool</p>
-						<a href="#" class="apply">Apply</a>
+						<div class="iconImg"><img src="images/fieldUniformityTool.jpg"></img></div>
+						<h3>Field Uniformity Tool</h3>
+						<a href="#" class="apply" title="Apply">Apply</a>
 						<div class="clear"></div>	
 						</li>
 
 						<li>
-						<i class=iconImg></i>
-						<p>Field Uniformity 
-Tool</p>
-						<a href="#" class="apply">Apply</a>
+						<div class="iconImg"><img src="images/fieldUniformityTool.jpg"></img></div>
+						<h3>Field Uniformity Tool</h3>
+						<a href="#" class="apply" title="Apply">Apply</a>
 						<div class="clear"></div>	
 						</li>
 					</ul>
@@ -195,46 +187,51 @@ Tool</p>
 							predicted. What does everything think?
 							</p>
 							</div>
-							<span class="timestamp">
-								4/1/15
-								6:14 PM
-							</span>
+							<div class="timestamp">
+								<span>4/1/15</span>
+								<span>6:14 PM</span>
+							</div>
 							<div class="clear"></div>
 						</li>
-						<li>
-							<i class=commentNumber>1</i>
+						 <li>
+							<!-- <i class=commentNumber>2</i> --> 
 							<div class="commentData">
 							<h2>Kyle Baker</h2>
 							<p>
 							We haven’t got as much rainfall as predicted this year. That could be it.
 							</p>
 							</div>
-							<span class="timestamp">
-								4/1/15
-								6:14 PM
-							</span>
+							<div class="timestamp">
+								<span>4/1/15</span>
+								<span>6:14 PM</span>
+							</div>
 							<div class="clear"></div>
 						</li>
 						<li>
-							<i class=commentNumber>1</i>
+							<i class=commentNumber>2</i>
 							<div class="commentData">
 							<h2>Kyle Baker</h2>
 							<p>
 							We haven’t got as much rainfall as predicted this year. That could be it.
 							</p>
 							</div>
-							<span class="timestamp">
-								4/1/15
-								6:14 PM
-							</span>
+							<div class="timestamp">
+								<span>4/1/15</span>
+								<span>6:14 PM</span>
+							</div>
 							<div class="clear"></div>
 						</li>
 					</ul>
+					<form>
+						<textarea name="comment" placeholder="Add a comment..."></textarea>
+						<button type="submit" value="Submit">Comment</button>
+
+					</form>
 				</section>
 			</div>
 			<div class="clear"></div>
 		</div>
-	</div>
+	</main>
 
 </body>
 </html>
