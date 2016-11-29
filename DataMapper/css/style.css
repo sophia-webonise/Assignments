@@ -1,0 +1,398 @@
+@import url("fontStyle.css");
+@import url("font-awesome.min.css");
+@import url("reset.css");
+
+
+.fa-chevron-down{
+	font-size: 10px;
+	color: #656565;
+}
+
+.fa-angle-left{
+	font-size: 17px;
+	line-height: 23px;
+	color: #c0262b;
+}
+
+.fa-map-marker{
+	color: #dc605f;
+	font-size: 12px;
+}
+
+.fa-comment-o{
+	font-size: 18px;
+	color: #767676;
+}
+
+.clear{
+	clear: both;
+	margin: 0;	
+}
+
+ul li.clear{
+	float: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.logo{
+	float: left;
+	height: 70px;
+	width: 140px;
+	background: url("../images/logo.png") no-repeat center;
+	background-size: 100%;
+}
+
+header{
+	background-color: #272727;
+}
+
+header ul{
+	float: right;
+}
+
+header li{
+	float: left;
+	padding:15px;
+	height: 70px;
+	box-sizing: border-box;
+	border-top: 4px solid transparent;
+}
+
+header li a{
+	display: block;
+	font-size: 14px;
+	font-family: "Quicksand";
+	color: #fff; 
+	line-height: 30px;
+ 
+}
+
+.globe{
+	background: url("../images/globeIcon.png") no-repeat center;
+	height: 30px;
+	width: 20px;
+}
+
+.dropDownCarret{
+	display: inline-block;
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    margin-left: 3px;
+}
+
+header li:hover, header li:active{
+	background-color: black;
+	border-top: 4px solid #c0262b;
+}
+
+
+.pageTitle{
+	border-bottom: 1px solid #999999;
+}
+
+h1{
+	float: left;
+	font-family:"RBNo2-Light-Alternative", sans-serif;
+	font-size: 40px;
+	line-height: 64px;
+	color: #c1272c;
+}
+
+.optionsDiv{
+	float: left;
+	margin-top: 21px;
+	position: relative;
+}
+
+.optionsDiv:hover{
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.optionsBtn{
+	border: 1px solid #bcbcbc;
+	padding: 5px;
+	border-radius: 3px;
+	cursor: pointer;
+	background-color: #f4f4f4;
+}
+
+.optionsDiv:hover ul {
+	display: block;
+}
+
+.optionsDiv ul{
+	display: none;
+	position: absolute;
+	text-align: left;
+	border: 1px solid #e2e2e2;
+	border-radius: 3px;
+	background-color: white;
+	z-index: 1000;
+}
+
+.optionsDiv li{
+	border-bottom: 1px solid #e2e2e2;
+	padding: 0 8px;
+	min-width: 137px;
+	box-sizing: border-box;
+}
+
+.optionsDiv li:last-child{
+	border-bottom: none;	
+}
+
+.optionsDiv li:hover{
+	background-color: #e2e2e2;
+	border-radius: 2px;
+}
+
+.optionsDiv ul a{
+	color: #4d4d4d;
+	display: block;
+	line-height: 26px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+}
+
+.backIcon{
+	border: 1px solid #c0262b;
+	border-radius: 50%;
+	height: 26px;
+	width: 26px;
+	padding-left: 7px;
+	box-sizing: border-box;
+	margin-right: 10px;
+}
+
+.back{
+	float: right;
+	font-family: "QuicksandBook-Regular", sans-serif;
+	font-size: 17px;
+	color: black;
+	line-height: 64px;
+}
+
+.sectionWrapper{
+	background-color: #f2f2f2;
+}
+
+.back:hover{
+	color: #c0262b;
+}
+
+.leftContainer{
+	width: 354px;
+	padding-top: 20px;
+	float: left;
+}
+
+.rightContainer{
+	padding-top: 20px;
+	width: 804px;
+	float: right;
+}
+
+.tabsHead{
+	border-bottom: 1px solid #cccccc;
+}
+
+.tabsHead li{
+	float: left;
+	border:1px solid #cccccc;
+	border-bottom:1px solid white;
+	padding: 6px 22px;
+	background-color: #e2e2e2;
+}
+
+.tabsHead li:hover, .tabsHead li:active{
+	background-color: white;
+}
+
+.tabsHead li a{
+	display: block;
+	font-family: "Quicksand",sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 34px;
+	color: #666666;
+}
+
+.tabsHead li:first-child {
+	border-right:  none;	
+	background-color: white;
+}
+.sourceData{
+	border: 1px solid #cccccc;
+	border-top: none;
+	padding: 10px 0px;
+	background-color: white;
+}
+
+.sourceData li{
+
+}
+
+.sourceData li span{
+	font-family: "QuicksandBook-Regular", sans-serif;
+	font-size: 14px;
+	line-height: 30px;
+	color: #4d4d4d;
+	box-sizing: border-box;
+	padding: 0 15px;
+}
+
+.details i{
+	margin-right: 9px;
+}
+
+.parameter{
+	display: inline-block;
+	min-width: 120px;	
+}
+.details{
+	display: inline-block;
+	min-width: 232px;	
+	text-align: right;
+}
+
+h2{
+  font-size: 16px;
+  font-family: "Quicksand";
+  color: #666666;
+  font-weight: bold;
+  line-height: 34px;
+  padding: 6px 18px;
+  border-top: 1px solid #dfdfdf;
+}
+
+.frame,.comments{
+	background-color: white;
+	margin-top: 8px;
+	border: 1px solid #e4e4e4;
+}
+
+.frame > ul > li{
+	padding: 8px 8px;
+	border-top: 1px solid #e2e2e2;
+}
+
+.frame > ul > li:hover{
+	background-color: #e2e2e2;
+	font-family: "Quicksand";
+	/*border: 1px solid #e2e2e2;*/
+	font-weight: 700;
+}
+
+.frame > ul li p{
+	float: left;
+	font-family: "QuicksandBook-Regular", sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: #4d4d4d;
+	width: 119px;
+	padding: 10px 0;
+	box-sizing: border-box;
+	height: 62px;
+	margin-left: 15px;
+}
+
+.apply{
+	font-family: "Quicksand";
+	font-weight: 700;
+	line-height: 34px;
+	float: right;
+	background-color: #ba2527;
+	color: white;
+	width: 95px;
+	text-align: center;
+	border-radius: 4px;
+	margin-top: 16px;
+}
+
+.downloadIcon{
+	float: left;
+	border-radius: 3px;
+	background: #f4f4f4 url("../images/fileDownLoad.png") no-repeat center;
+	height: 24px;
+	width: 26px;
+	border: 1px solid #c4c4c4;
+	margin: 21px 8px 0 70px;
+}
+
+.iconImg{
+	float: left;
+	height: 62px;
+	width: 62px;
+	background: url("../images/stdOrtho.jpg") no-repeat center;
+	background-size: 100%;
+	
+}
+
+.optionBig{
+	height: 26px;
+	width: 28px;
+}
+
+.mapWrapper{
+	display: block;
+	height: 548px;
+	width: 804px;
+
+}
+
+.comments ul li{
+	padding: 15px 18px;
+
+}
+.commentNumber{
+	margin-top: 10px ;
+	font-family: sans-serif;
+	/*display: block;*/
+	float: left;
+	background: url("../images/commentBullet.png") no-repeat center;
+	color: white;
+	width: 22px;
+	height: 30px;
+	padding: 5px 6px;
+	box-sizing: border-box;
+}
+
+.comments h2 i{
+	margin-right: 8px;
+}
+.commentData{
+	float: left;
+}
+
+.comments ul{
+	border-top: 1px solid #c4c4c4;
+}
+.comments li h2{
+	padding-top: 0;
+	border: none;
+}
+
+.comments p{
+	font-family: "QuicksandBook-Regular", sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	padding-left: 18px;
+	width: 500px;
+}
+
+.timestamp{
+	font-family: "QuicksandBook-Regular", sans-serif;
+	font-size: 14px;
+	float: right;
+	width:88px;
+	margin-top: 10px;
+}

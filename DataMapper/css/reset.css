@@ -1,0 +1,19 @@
+html,body,header,footer, section,button,div,span,h1,h2,h3,h4,h5,p,a,img,input,ul,li,form {
+border:0;
+font:inherit;
+vertical-align:baseline;
+margin:0;
+padding:0;
+}
+
+body {
+font-size: 14px;
+}
+
+ul {
+list-style:none;
+}
+
+a{
+	text-decoration: none;
+}
