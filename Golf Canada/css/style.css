@@ -220,12 +220,13 @@ main{
 }
 
 .add{
-float: right;
-	background: url(../images/plusIcon.png) no-repeat center;
+	float: right;
+	background:#a01d26 url(../images/plusIcon.png) no-repeat center;
 	border: 1px solid white;
 	height: 30px;
 	width: 30px;
 	margin: 7px 0;
+
 }
 
 .leftContainer{
@@ -235,6 +236,7 @@ float: right;
 }
 
 .mainNewsImgWrapper{
+	display: block;
 	width: 770px;
 	height: 320px;	
 	margin-top: 30px;
@@ -242,7 +244,12 @@ float: right;
 	margin-bottom: 50px;
 }
 
+.mainNewsLink a{
+	display: block;
+}
+
 .gradientDiv{
+	display: block;
 	width: 770px;
 	height: 320px;
 	position: absolute;
@@ -289,4 +296,60 @@ h1{
 	line-height: 40px;
 	width: 127px;
 	text-align: center;
+}
+
+.newsHeading a:hover{
+	box-shadow: -2px 2px 2px #f0f0f0;
+}
+
+.newsHeading{
+	margin-bottom: 30px;
+}
+
+.newsDetails{
+	border: 1px solid #dddddd;
+	box-shadow: ;
+	padding: 0 25px;
+}
+
+.newsImgWrapper,.newsDetails{
+	display: block;
+	width: 370px;
+	height: 154px;
+}
+
+h3{
+  font-size: 22px;
+  font-family: "Lato";
+  color: #444444;
+  font-weight: bold;
+  line-height: 30px;
+  white-space: pre-line;
+}
+
+.newsList li{
+	float: left;
+}
+
+.newsList li a{
+	display: block;
+}
+.newsList li a:hover{
+	box-shadow: 3px 5px 5px #f0f0f0; 
+}
+
+.infoWrapper{
+	font-family: "Lato";
+	color: #666666;
+}
+
+.infoWrapper span{
+	text-transform: uppercase;
+	color: #a01d26;
+	font-weight: bold;
+	line-height: 60px;
+}
+
+.infoWrapper span {
+margin-left: 20px;
 }
