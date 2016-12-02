@@ -137,6 +137,7 @@ a:hover,a:focus{
 }
 
 .navBar li a, .navBar button {
+	display: block;
   font-size: 15px;
   font-family: "Lato";
   color:#444444;
@@ -162,13 +163,14 @@ a:hover,a:focus{
 
 .banner ul li{
 	float: left;
-	background-color:rgba(216,211,193,0.7);
-	/*padding-left: 92px;*/
+	background-color:white;
 	text-align: center;
+	opacity: 0.8;
 }
 
 .banner ul li:hover, .banner ul li.active{
 	background-color: white;
+	opacity: 1;
 }
 
 .banner i{
@@ -181,6 +183,7 @@ a:hover,a:focus{
 }
 
 .banner ul li a{
+	display: block;
 	text-transform: uppercase;
 	font-family: "Lato";
 	font-weight: bold;
@@ -196,6 +199,7 @@ a:hover,a:focus{
 	/*line-height: 60px;*/
 	padding:8px 100px;
 	text-align: center;
+	margin-bottom:30px;
 
 }
 
@@ -211,6 +215,10 @@ main{
 	font-size: 16px;
 }
 
+.add:hover{
+	box-shadow: 8px 8px 5px rgba(0,0,0,0.19);
+}
+
 .horn{
 	float: left;
 	background: white url(../images/horn.png) no-repeat center;
@@ -221,43 +229,35 @@ main{
 
 .add{
 	float: right;
-	background:#a01d26 url(../images/plusIcon.png) no-repeat center;
+	background: url(../images/plusIcon.png) no-repeat center;
 	border: 1px solid white;
 	height: 30px;
 	width: 30px;
 	margin: 7px 0;
-
+	cursor: pointer;
 }
 
-.leftContainer{
-	/*background-color: red;
-	width: 100%;
-	height: 500px;*/
-}
-
-.mainNewsImgWrapper{
+.mainNewsImgWrapper {
 	display: block;
-	width: 770px;
+	width: 100%;
 	height: 320px;	
-	margin-top: 30px;
 	position: relative;
 	margin-bottom: 50px;
 }
 
-.mainNewsLink a{
+.mainNewsImgWrapper img{
 	display: block;
 }
 
 .gradientDiv{
-	display: block;
-	width: 770px;
+	width: 100%;
 	height: 320px;
 	position: absolute;
 	top:0px;
 	left: 0px;
 	background: -webkit-gradient(linear, 3% 35%, 2% 100%, from(transparent), to(rgba(0,0,0,1)));
 	padding: 186px 130px 0 30px;
-
+	box-sizing: border-box;
 }
 
 .gradientDiv span{
@@ -278,13 +278,12 @@ h1{
 	line-height: 38px;
 }
 
-.newsHeading h2{
-	float: left;
+ h2{
+	text-transform: uppercase;
 	font-size: 22px;
   	font-family: 'Montserrat', sans-serif;;
   	color: #444;
   	font-weight: bold;
-  	text-transform: uppercase;
   	line-height: 40px;
 }
 
@@ -298,58 +297,288 @@ h1{
 	text-align: center;
 }
 
-.newsHeading a:hover{
-	box-shadow: -2px 2px 2px #f0f0f0;
+.fa-angle-down{
+	margin-left: 30px;
+	font-size: 15px;
+	color: #a01d26;
+}	
+
+.latestNews{
+margin-bottom: 30px;	
 }
 
-.newsHeading{
-	margin-bottom: 30px;
-}
-
-.newsDetails{
-	border: 1px solid #dddddd;
-	box-shadow: ;
-	padding: 0 25px;
-}
-
-.newsImgWrapper,.newsDetails{
+.newsWrapper{
 	display: block;
-	width: 370px;
-	height: 154px;
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+	margin-top: 30px;
+}
+
+.newsWrapper:hover{
+	box-shadow: 5px 0px 10px rgba(0,0,0,0.19);
+}
+
+.newsImgWrapper img{
+	display: block;
+	width: 100%;
+}
+.newsImgWrapper{
+	margin-bottom: 25px;
+}
+
+.newsWrapper span{
+	font-family: "Lato";
+	font-size: 13px;
+	line-height: 15px;
+	color: #666666;
+	margin:0 22px;
+}
+
+.newsWrapper strong{
+	color: #a01d26; 
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: "Lato";
+	font-size: 13px;
+	line-height: 15px;
+	white-space: pre-wrap;
 }
 
 h3{
-  font-size: 22px;
+	font-size: 22px;
+  	font-family: "Lato";
+  	color: #444;
+  	font-weight: bold;
+  	line-height: 30px;
+  	margin: 22px;
+}
+
+
+.blueLink{
+	display: block;
+	font-size: 14px;
+	font-family: "Lato";
+	color: #1a237e;
+	text-transform: uppercase;
+	border: 1px solid #c5cae9;
+	line-height: 38px;
+	text-align: center;
+}
+
+ .blueLink:hover{
+	color: #1a237e;
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.8);
+}
+
+.adWrapperLeft{
+	display: block;
+	max-width: 728px;
+	margin: 0 auto;
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
+
+
+.adWrapperLeft img{
+	display: block;
+	border: 1px solid black;
+}
+
+.teamCanada{
+	margin-bottom: 42px;
+	margin-top: 22px;
+}
+
+
+.teamCanada img{
+	display: block;
+}
+
+.teamCanada a{
+	display: block;
+	padding: 13px 13px;
+	border: 1px solid #dddddd;
+}
+
+
+h4{
+ 	font-size: 22px;
+  	font-family: "Lato";
+  	color: #444;
+  	line-height: 30px;
+  	margin-bottom: 25px;
+}
+
+h5{
+	font-size: 18px;
+	font-family: "Lato";
+	color:#a01d26;
+	line-height: 24px;
+	font-weight: bold;
+}
+
+.teamCanada span{
+	font-size: 16px;
+	font-family: "Lato";
+	color: #444;
+	line-height: 24px;
+ }
+
+.teamCanada .imgWrapper{
+	height: 75px;
+	width: 75px;
+	margin-right: 16px;
+ }
+
+.teamCanada a:hover{
+ 	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.19);
+ }
+
+.teamCanada li:nth-child(2n){
+ 	padding-top: 65px;
+ }
+
+.partners li a{
+ 	display: block;
+ 	background: #fff url("../images/brand.png") no-repeat center center;
+ 	width: 100%;
+ 	height: 98px;
+ 	border: 1px solid #ddd;
+ 	margin-bottom: 30px;
+}
+
+.partners{
+	margin-top: 106px;
+}
+
+.partners li a:hover{
+	 box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.19);
+}
+
+.right{
+	background-color: #f9f9f9;
+	padding: 36px 15px 52px 15px;
+}
+
+.adSlotRight{
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+	margin-bottom: 88px;
+}
+
+.right h2{
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.leaderBoard li{
+	border-top: 1px solid #dddddd;
+	padding-top: 22px;
+	padding-bottom: 18px;
+}
+
+.viewBlue{
+	display: block;
+	font-size: 12px;
+	font-family: "Lato";
+	color: #1a237e;
+	font-weight: bold;
+	line-height: 16px;
+	margin-top: 10px;	
+	text-transform: uppercase;
+}
+
+.viewBlue:hover{
+	color: #1a237e;
+	text-decoration: underline;
+}
+
+.leaderBoard p, .championship p{
+  font-size: 16px;
   font-family: "Lato";
-  color: #444444;
-  font-weight: bold;
-  line-height: 30px;
+  color: #444;
+  line-height: 24px;
   white-space: pre-line;
 }
 
-.newsList li{
-	float: left;
-}
-
-.newsList li a{
+.rightViewLink{
 	display: block;
-}
-.newsList li a:hover{
-	box-shadow: 3px 5px 5px #f0f0f0; 
-}
-
-.infoWrapper{
+	border: 1px solid #ddd;
+	line-height: 38px;
 	font-family: "Lato";
-	color: #666666;
-}
-
-.infoWrapper span{
+	font-size: 14px;
+	color: #1a237e;
 	text-transform: uppercase;
-	color: #a01d26;
-	font-weight: bold;
-	line-height: 60px;
+	text-align: center;
+	margin-bottom: 50px;
 }
 
-.infoWrapper span {
-margin-left: 20px;
+.rightViewLink:hover{
+	background-color: #ebeeff;
+	color: #1a237e;
+ 	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.8);
+}
+
+.redTitle{
+	display: block;
+  font-size: 18px;
+  font-family: "Lato";
+  color: #a01d26;
+  font-weight: bold;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+.championship li{
+	border-top: 1px solid #dddddd;
+	padding-top: 22px;
+	padding-bottom: 18px;
+}
+
+
+
+.fa-external-link{
+	color: #1a237e;
+	font-weight: bold;
+	font-size: 14px;
+	margin-left: 5px;
+}
+
+.topList ul li:first-child{
+	text-transform: uppercase;
+	font-size: 16px;
+  	font-family: 'Montserrat', sans-serif;;
+  	color: #444;
+  	font-weight: bold;
+  	line-height: 28px;
+}
+
+.topList ul li a{
+	display: block;
+	font-size: 14px;
+	font-family: "Lato";
+	color: #1a237e;
+	font-weight: bold;
+	line-height: 32px;
+}
+
+.topList>li{
+	margin-top: 58px;
+}
+
+footer p{
+	text-transform: uppercase;
+	font-size: 12px;
+  	font-family: "Lato";
+  	color:#666;
+  	text-align: center;
+  	line-height: 16px;
+  	margin-top: 50px;
+}
+
+
+footer{
+	padding-bottom: 60px;
 }
