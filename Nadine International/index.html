@@ -26,59 +26,64 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<div class="preHeader clearfix">
+<div class="topHeader">
 	<div class="container">
-		<div class="row">
+		<ul class="clearfix">
+			<li>
 				<i class="glyphicon glyphicon-map-marker"></i>
 				<span>2325 Skymark Avenue, Mississauga, Ontario, L4W 5A9</span>
-				<i class="phoneIcon"></i>
-				<span>(905) 602-1850
-				</span>
-		</div>
+			</li>
+			<li>
+				<i class="glyphicon glyphicon-earphone"></i>
+				<span>(905) 602-1850</span>
+			</li>				
+		</ul>
 	</div>
 </div>
 <header class="navbar navbar-default header">
 	<div class="container">
-		<div class="row">
 		<div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
+	      <button type="button" class="navbar-toggle collapsed navButton" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-	      <a class="navbar-brand logo" href="#"></a>
+	      <a class="logo" href="#" title="Nadine International">
+	      	<img src="images/logo.png" alt="Nadine International" class="img-responsive">
+	      </a>
     	</div>
 
 	    <div class="collapse navbar-collapse clearfix" id="myNavbar">
 	      <ul class="navbar-nav navbar-right navBar">
 	        <li class="active"><a href="#">Special Projects</a></li>
-	        <li><a href="#">Services</a></li>
-	        <li><a href="#">APPLICATIONS</a></li>
-	        <li><a href="#">Our Clients</a></li>
-	        <li><a href="#">Contact Us</a></li>
+	        <li><a href="#" title="Services">Services</a></li>
+	        <li><a href="#" title="Applications">APPLICATIONS</a></li>
+	        <li><a href="#" title="Our Clients">Our Clients</a></li>
+	        <li><a href="#" title="Contact Us">Contact Us</a></li>
 	      </ul>
 		</div>
 	</div>
 </header>
 <main>
 	<div class="banner">
-		<div class="container bannerWrapper">
-			<div class="col-md-offset-1 col-md-10">
-				<h1>about <span>nadine</span></h1>
-				<p>Nadine International Inc. is committed to identifying, understanding and meeting the needs of our clients. We develop a direct response or solution to the client's requirements while adhering to the principles of comprehensiveness, practicality and thoughtfulness.
-				</p>
-				<a href="#">Contact Us</a>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-offset-1 col-md-10">
+					<h1>about <span>nadine</span></h1>
+					<p>Nadine International Inc. is committed to identifying, understanding and meeting the needs of our clients. We develop a direct response or solution to the client's requirements while adhering to the principles of comprehensiveness, practicality and thoughtfulness.
+					</p>
+					<a href="#" class="redButton" title="Contact Us">Contact Us</a>
+				</div>
 			</div>
 		</div>
 	</div>
 	<div class="whyNadine">
 		<div class="container">
-			<div class="row">	
 				<div class="title">
 					<h2>why <span>Nadine</span></h2>
-					<div class="underLine clearfix"><span></span><i></i><span></span></div>
+					<div class="underLine"><span></span><i></i><span></span></div>
 				</div>
-				<ul class="row">
+				<ul class="features row">
 					<li class="col-md-4 ">
 						<i class="building"></i>
 						<h3>Comprehensiveness</h3>
@@ -96,7 +101,6 @@
 					</li>
 				</ul>
 			</div>
-		</div>
 	</div>
 	<div class="mission">	
 		<div class="container">
@@ -114,41 +118,58 @@
 
 	<div class="clients">	
 		<div class="container">
-			<div class="row">	
 				<h2>some of <span>our Clients</span></h2>
 				<ul class="row">	
-					<li class="col-md-3"><a href="#" class="pearson"></a></li>
-					<li class="col-md-3"><a href="#" class="tUniversity"></a></li>
-					<li class="col-md-3"><a href="#" class="hilton"></a></li>
-					<li class="col-md-3"><a href="#" class="toronto"></a></li>
+					<li class="col-md-3">
+						<img src="images/pearson.jpg" class="img-responsive" alt="Toronto Pearson">
+					</li>
+					<li class="col-md-3">
+						<img src="images/torontoUni.jpg" class="img-responsive" alt="Toronto University">
+					</li>
+					<li class="col-md-3">
+						<img src="images/hilton.jpg" class="img-responsive" alt="Hilton Toronto">
+					</li>
+					<li class="col-md-3">
+						<img src="images/toronto.jpg" class="img-responsive" alt="Toronto">
+					</li>
 				</ul>	
-			</div>
 		</div>
 	</div>	
 </main>
 <footer>
 	<div class="container">
-		<div class=" upperFooter row">	
-				<ul class="company col-md-3 row">
-					<li>COMPANY</li>
-					<li><a href="#">about us</a></li>
-					<li><a href="#">careers</a></li>
-				</ul>
-				<ul class="contact col-md-3 ">	
-					<li>CONTACT</li>
-					<li><span><strong>Address:</strong> 2325 Skymark Avenue, Mississauga, Ontario, L4W 5A9</span>
-					</li>
-					<li><span><strong>Phone</strong>(905) 602-1850</span></li>
-					<li><span><strong>Fax</strong>(905) 602-1853</span></li>
-					<li><span><strong> info@nadineintl.on.ca</strong></span></li>
-				</ul>
-				<ul class="awards col-md-6">	
-					<li>AWARDS</li>
-					<li class="col-md-6"><a href="#"class="ontario"></a></li>
-					<li class="col-md-6"><a href="#"class="profesional"></a></li>
-					<li class="col-md-6"><a href="#" class="nfpa"></a></li>
-					<li class="col-md-6"><a href="#" class="iso"></a></li>
-				</ul>
+		<div class=" upperFooter row">
+				<div class="company col-md-3">
+					<h4>COMPANY</h4>	
+					<ul>
+						<li><a href="#" title="About Us">about us</a></li>
+						<li><a href="#" title="Careers">careers</a></li>
+					</ul>
+				</div>
+				<div class="contact col-md-3 ">	
+					<h4>CONTACT</h4>
+					<p class="address"><strong>Address:</strong> 2325 Skymark Avenue, Mississauga, Ontario, L4W 5A9</p>
+					<p><strong>Phone</strong>(905) 602-1850</p>
+					<p><strong>Fax</strong>(905) 602-1853</p>
+					<p><strong> info@nadineintl.on.ca</strong><p>
+				</div>
+				<div class="awards col-md-6">	
+					<h4>AWARDS</h4>
+					<ul>
+						<li class="col-xs-6">
+							<img src="images/Ontario.jpg" class="img-responsive" alt="Consulting Engineers Of Ontario">
+						</li>
+						<li class="col-xs-6">
+							<img src="images/profesional.jpg" class="img-responsive" class="img-responsive" alt="Proffessional Engineers Ontario">
+						</li>
+						<li class="col-xs-6">
+							<img src="images/nfpa.jpg" class="img-responsive" alt="NFPA">
+						</li>
+						<li class="col-xs-6">
+							<img src="images/iso.jpg" class="img-responsive" alt="ISO">
+						</li>
+					</ul>
+				</div>
 		</div>	
 	</div>
 </footer>
