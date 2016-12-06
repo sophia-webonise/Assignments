@@ -1,0 +1,348 @@
+@import url("../css/font-awesome.min.css");
+@import url("../css/reset.css");
+
+
+.glyphicon-map-marker{
+	color: #3b3e46;
+	text-shadow:-1px 0 #e63547, 0 1px #e63547, 1px 0 #e63547, 0 -1px #e63547;
+	margin-right: 11px;
+}
+
+.preHeader{
+	background-color: #3b3e46;
+	text-align: left;
+}
+
+.preHeader span{
+	float: left;
+	font-size: 13px;
+	color:white;
+	text-transform: uppercase;
+	line-height: 52px;
+	margin-right: 40px;
+}
+
+.preHeader i{
+	float: left;
+	line-height: 52px;
+}
+
+.phoneIcon{
+	background: url("../images/phone.png") no-repeat center;
+	height: 52px;
+	width: 16px;
+	margin-right: 5px;
+}
+
+.header,#myNavbar{
+	text-align: center;
+	background-color: white;
+	border: none;
+	margin: 0px;
+}
+
+.logo{
+	background: url("../images/logo.png") no-repeat center center;
+	height: 98px;
+	width: 387px;
+	padding: 0;
+}
+
+.navbar-default .navbar-nav>li>a{
+	display: block;
+	font-size: 14px;
+	color: black;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 98px;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+.navbar-toggle{
+	margin-top: 30px;
+	margin-left: 5px;
+}
+
+.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a{
+	color: #e63547;
+	background-color: white;
+}
+
+.navBar li{
+	margin-left: 32px;
+}
+
+
+.banner{
+	background: url("../images/bannerImg.jpg") no-repeat;
+	background-size: cover;
+	text-align: center;
+	height: 780px;
+	padding-top: 180px;
+	padding-bottom: 300px;
+}
+
+.banner p{
+	font-size: 26px;
+	color: white;
+	font-weight: 600;
+	line-height: 42px;
+}
+
+h1{
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	font-size: 72px;
+	line-height: 74px;
+	margin-bottom: 20px;
+}
+
+h1>span{
+	color: #e63547;
+	font-weight: bold;
+}
+
+.banner a{
+	display: inline-block;
+	line-height: 64px;
+	color: white;
+	background-color: #e63547;
+	font-weight: bold;
+	width: 244px;
+	margin-top: 40px;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.banner a:hover{
+	box-shadow: -2px -2px 5px 0 rgba(0,0,0,0.19);
+}
+
+.building{
+	display: block;
+	background: url("../images/building.png") no-repeat center center;
+	background-size: contain;
+	width: 98px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+
+.balance{
+	display: block;
+	background: url("../images/balance.png") no-repeat center center;
+	background-size: contain;
+	width: 90px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.bulb{
+	display: block;
+	background: url("../images/bulb.png") no-repeat center center;
+	background-size: contain;
+	width: 98px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+h3{
+	font-size: 18px;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	line-height: 20px;
+	margin-top:53px;
+	margin-bottom: 28px;
+}
+
+.whyNadine{
+	padding-top: 110px;
+	padding-bottom: 100px;
+}
+
+.whyNadine li{
+	margin-bottom: 30px;
+}
+
+.whyNadine ul{
+	margin-top: 58px;
+}
+
+.whyNadine p{
+	font-size: 14px;
+	color: black;
+	text-align: center;
+	line-height: 24px
+}
+
+h2{
+	color: black;
+	text-transform: uppercase;
+	font-size: 36px;
+	line-height: 40px;
+	margin-bottom:30px;
+}
+
+h2>span{
+	color: #e63547;
+	font-weight: bold;
+}
+
+.title{
+	text-align: center;
+	
+}
+
+.underLine>span{
+	display: inline-block;
+	border-bottom: 3px solid #e63547;
+	width: 62px;
+	vertical-align: middle;
+}
+.title i{
+	display: inline-block;
+	border: 3px solid #e63547;
+	border-radius: 50%;
+	height: 17px;
+	width: 17px;
+	vertical-align: middle;
+}
+
+.mission{
+	text-align: center;
+	background: url("../images/mission.jpg") no-repeat;
+	background-size: cover;
+	padding-top: 156px;
+	padding-bottom: 180px;
+}
+
+.mission h1{
+	font-size: 36px;
+	line-height: 40px;
+}
+
+.mission p{
+	font-size: 18px;
+	line-height: 32px;
+	margin: 0 auto;
+	white-space: pre-line;
+	color: white;
+	max-width: 940px;
+}
+
+.clients{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+
+.clients li{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.clients li a{
+	display: block;
+	height: 161px;
+	width: 244px;
+	margin: 0 auto;
+	filter: grayscale(100%);
+}
+
+.clients li a:hover{
+	box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.19);
+}
+
+.pearson{
+	background: url("../images/pearson.jpg") no-repeat center;
+}
+
+.tUniversity{
+	
+	background: url("../images/torontoUni.jpg")no-repeat center;
+}
+
+.hilton{
+	
+	background: url("../images/hilton.jpg")no-repeat center;
+}
+
+.toronto{
+	background: url("../images/toronto.jpg")no-repeat center;
+}
+
+footer{
+	color:white;
+	background-color: #2b2c31;
+	padding-bottom: 55px;
+	padding-top: 70px;
+}
+
+.company li:first-child,.contact li:first-child,.awards li:first-child{
+	font-weight: bold;
+	line-height: 48px;
+	margin-bottom: 30px;
+	border-bottom: 2px solid #2f3035;
+}
+
+.contact li:nth-child(2){
+	margin-bottom: 25px;
+}
+
+.company li a{
+	display: block;
+	text-transform: uppercase;
+	color: white;
+	line-height: 35px;
+}
+
+.contact li a{
+	line-height: 25px;
+}
+
+.company li a:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+
+.awards li a{
+	display: block;
+	height: 110px;
+	width: 214px;
+	margin: 0 auto;
+}
+
+.awards li{
+	margin-bottom: 10px;
+}
+ 
+.awards li a:hover{
+	box-shadow: 2px 2px 5px 0 rgba(1,1,1,0.3);
+}
+
+.ontario{
+	display: block;
+	background: url("../images/Ontario.jpg") no-repeat center center;
+}
+.profesional{
+	display: block;
+	background: url("../images/profesional.jpg") no-repeat center center;
+}
+.nfpa{
+	display: block;
+	background: url("../images/nfpa.jpg") no-repeat center center;
+}
+.iso {
+	display: block;
+	background: url("../images/iso.jpg") no-repeat center center;
+}
+
+.copyright{
+	background-color: #26272b;
+	color: #818389;
+	padding-top: 47px;
+	padding-bottom: 37px;
+}
