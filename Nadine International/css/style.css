@@ -13,6 +13,7 @@
 	padding: 18px 0 10px 0;
 }
 
+
 .topHeader li{
 	float: left;
 	margin-right: 40px;
@@ -292,16 +293,20 @@ h4{
 
 @media only screen and (max-width: 480px) {
     .topHeader li i{
-    	margin-right: 8px;
+    	margin-right: 5px;
     }
     
     .topHeader li{
-    	margin:0;
-    	margin-bottom: 9px;
+    	margin-right: 15px;
+    	margin-bottom: 10px;
     }
 
+    .container .logoContainer{
+		margin: 0;
+	}
+
     .topHeader li span{
-    	font-size: 10px;
+    	font-size: 9px;
     }
 
     .header button{
@@ -309,8 +314,15 @@ h4{
     }
     .logo{
     	width: 75%;
-    	padding-left: 15px;
     	margin-top: 10px;
+    }
+
+    .header .navBar li a{
+    	line-height: 40px;
+    }
+
+    .header .navBar li{
+    	margin-left: 5px;
     }
 
     h1{
@@ -328,7 +340,8 @@ h4{
     }
 
     .redButton{
-    	width: 180px;
+    	width: 150px;
+    	padding: 18px 0;
     }
 
     .features li{
@@ -336,11 +349,26 @@ h4{
     }
 
     .whyNadine{
-    	padding-bottom: 60px;
+    	padding: 30px 0 0 0;
+    }
+
+    .whyNadine h2{
+    	font-size: 34px;
+    	line-height: 38px;
     }
 
     .mission{
-    	padding: 80px 0;
+    	padding: 55px 0;
+    }
+
+    .mission p{
+    	font-size: 14px;
+    	line-height: 24px;
+    }
+
+    .mission h1{
+    	font-size: 32px;
+    	line-height: 34px;
     }
 
     .clients li{
@@ -353,5 +381,25 @@ h4{
 
     .clients h2{
     	margin-bottom: 30px;
+    	font-size: 26px;
+    	line-height: 30px;
     }
+
+    .company li{
+    	margin-bottom: 15px;
+    }
+
+    .company li a{
+    	font-size: 12px;
+    }
+
+    .contact{
+    	margin-bottom: 50px;
+    }
+
+    .copyright{
+    	font-size: 10px;
+    	padding: 15px 0;
+    }
+
 }
