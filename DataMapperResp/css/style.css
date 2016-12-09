@@ -326,6 +326,8 @@ h1{
 
 /******************FOOTER*******************/
 
+
+
 footer{
   background-color: black;
   text-align: center;
@@ -398,7 +400,7 @@ footer{
     box-sizing: border-box;
   }
 
-  .features{
+  .features,.login,.menu{
     display: none;
   }
 
@@ -410,10 +412,6 @@ footer{
   .planDuration li a{
     line-height: 56px;
     padding: 0 5px;
-  }
-
-  .menu{
-    display: none;
   }
 
   .plans ul{
@@ -452,6 +450,7 @@ footer{
     margin-bottom: 30px;
 
   }
+
 }
 
 /*MOBILE*/
