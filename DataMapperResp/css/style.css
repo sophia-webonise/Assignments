@@ -109,7 +109,7 @@ h1{
   border:1px solid #cac9c9;
   line-height: 20px;
   padding: 14px 5px;
-  border-radius: 3px;
+  border-radius: 0 3px 3px  0;
 }
 
 .planDuration li a span{
@@ -118,6 +118,7 @@ h1{
 
 .planDuration li:first-child a{
   border-right: 1px solid white;
+  border-radius: 3px 0 0 3px;
 }
 
 .planDuration li a:hover, .planDuration li.active a{
@@ -134,15 +135,18 @@ h1{
   margin-top: 166px;
 }
 
+.features li{
+  border-bottom: 1px solid #eceaea;
+  box-sizing: border-box;
+}
+
 .features li label{
   font-weight: bold;
   font-size: 12px;
   line-height: 16px;
   color: #646464; 
-  border-bottom: 1px solid #eceaea;
   width: 191px;
-  height: 57px;
-  box-sizing: border-box;
+  height: 56px;
   text-transform: uppercase;
   text-align: left;
   display: table-cell;
