@@ -469,9 +469,15 @@ footer{
     margin-bottom: 10px;
   }
 
+
   .planDuration li a{
     line-height: 56px;
     padding: 0 5px;
+    border-radius: 3px;
+  }
+
+  .planDuration li:first-child a{
+    border-radius: 3px;
   }
 
   .plans ul{
