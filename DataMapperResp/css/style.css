@@ -43,10 +43,9 @@ header{
 
 }
 
-.menu li a{
+.menu li a,.login a{
   display: block;
   font-size: 12px;
-  font-family: "Raleway";
   color:white;
   font-weight: bold;
   text-transform: uppercase;
@@ -57,17 +56,25 @@ header{
   color:#c1272c; 
 }
 
-.menu .navLink{
-  display: block;
+.login{
+  float: right;
+  margin: 30px 0;
+}
+
+.login li{
+  float: left;
+  margin-left: 22px;
+}
+
+.login a{
   padding: 0 16px;
   line-height: 28px;
   background-color: #c1272c;
-  margin: 30px 0;
   border-radius: 12px;
 
 }
 
-.navLink:hover{
+.login a:hover{
   background-color: white;
   color: #c1272c
 }
