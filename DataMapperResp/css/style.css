@@ -131,7 +131,7 @@ h1{
 .planDuration li a:hover, .planDuration li.active a{
   color: #c1272c;
   background-color: #f9e9ea;
-  border:1px solid #c1272c;
+  border-color:#c1272c;
 }
 
 /******************(LEFT-LIST)FEATURES*******************/
