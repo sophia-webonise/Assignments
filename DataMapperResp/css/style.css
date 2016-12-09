@@ -24,8 +24,8 @@ header{
 
 .logo{
   float: left;
-  /*height: 49px;
-  width: 49px;*/
+  height: 59px;
+  width: 234px;
   margin: 15px 0;
 }
 
@@ -74,7 +74,7 @@ header{
 
 /******************MAIN*******************/
 
-main{
+.main{
   text-align: center;
   padding-top: 84px;
   padding-bottom: 140px;
@@ -134,7 +134,7 @@ h1{
   margin-top: 166px;
 }
 
-.features li{
+.features li label{
   font-weight: bold;
   font-size: 12px;
   line-height: 16px;
@@ -144,20 +144,19 @@ h1{
   height: 57px;
   box-sizing: border-box;
   text-transform: uppercase;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-align: left;
+  display: table-cell;
+  vertical-align: middle;
 
 }
 
-.features li span,.plans li label span{
+.features label span,.plans label span{
   display: block;
   font-weight: 500;
   text-transform: none;
 }
 
-.features li a, .plans li label a{
+.features li a, .plans label a{
   display: block;
   color: #c1272c;
   text-transform: none;
@@ -180,10 +179,10 @@ h1{
 
 .plans>li>h2{
   display: table-cell;
+  vertical-align: middle;
   padding:0 10px;
   width: 187px;
   box-sizing: border-box;
-  vertical-align: middle;
   height: 66px;
   background-color: #646464;
   color: white;
@@ -236,8 +235,7 @@ h1{
   width: 185px;
   text-align: center;
   line-height: 16px;
-  padding:20px 0;
-  /*height: 56px;*/
+  padding:20px 10px;
 }
 
 .plans ul li:first-child{
@@ -248,7 +246,7 @@ h1{
 }
 
 .plans ul li:last-child{
- padding: 28px 0;
+  padding: 28px 0;
 }
 
 .plans ul li i{
@@ -269,7 +267,7 @@ h1{
 }
 
 .plans ul sub,.plans ul sup{
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .fa-check{
@@ -325,12 +323,13 @@ footer{
 }
 .footerLogo{
   display: block;
+  margin: 0 auto;
   margin-bottom: 58px;
-  /*height: 106px;*/
+  width: 132px;
+  height: 106px;
 }
 
 .footerLogo img{
-  margin: 0 auto;
   display: block;
 }
 
@@ -380,18 +379,26 @@ footer{
 /******************MEDIA QUERIES*******************/
 
 /*IPAD*/
-@media only screen and (min-width:768px) and (max-width: 1023px)
+@media only screen and (max-width: 991px)
 {
   .container{
-    width:415px;
+    width:100%;
+    padding: 0 20px;
+    box-sizing: border-box;
   }
 
   .features{
     display: none;
   }
 
-  .planDuration li:first-child{
-    margin-right: 10px;
+  .wrapper{
+    width: 374px;
+    margin: 0 auto;
+  }
+
+  .planDuration li a{
+    line-height: 56px;
+    padding: 0 5px;
   }
 
   .menu{
@@ -400,55 +407,47 @@ footer{
 
   .plans ul{
     margin-bottom: 50px;
-    border-left: 1px solid #ccc;
   }
 
-  .plans>li:nth-child(2n){
-    margin-left: 40px;
+  .plans>li:nth-child(2) h2{
+    border-radius: 0 6px 0 0;
+  }
+  
+  .plans>li:nth-child(3) h2{
+    border-radius: 6px 0 0 0;
+  }
+
+  .plans>li:nth-child(2n +1) ul{
+    border-left: 1px solid #ccc;
   } 
 
   .plans ul li:last-child{
     border-bottom-color: #ccc;
   }
 
-  main{
+  .main{
     padding:40px 0;
   }
 
-  .wrapper{
-    margin-bottom: 0px;
+  .plans ul li label{
+    display: block;
   }
 
-  .plans>li>h2, .plans>li>h2:first-child, .plans>li>h2:last-child{
-    border-radius: 6px 6px 0 0;
+  .footerLogo{
+    margin-bottom: 30px;
+  }
+
+  .socialIcons{
+    margin-bottom: 30px;
+
   }
 }
 
 /*MOBILE*/
 @media only screen and (max-width: 767px) {
 
-  .container{
-    width:200px;
-  }
-
-  .features{
-    display: none;
-  }
-
-  main{
+  .main{
     padding:30px 0;
-  }
-
-  .wrapper{
-    margin-bottom: 0px;
-  }
-
-  .plans ul li:last-child{
-    border-bottom-color: #ccc;
-  }
-
-  .menu{
-    display: none;
   }
 
   h1{
@@ -460,23 +459,13 @@ footer{
     margin-bottom: 10px;
   }
 
-
-  .plans>li>h2, .plans>li>h2:first-child, .plans>li>h2:last-child{
-    width: 200px;
-    border-radius: 6px 6px 0 0;
+  .planDuration li a{
+    line-height: 56px;
+    padding: 0 5px;
   }
 
   .plans ul{
-    margin-bottom: 50px;
     border-left: 1px solid #ccc;
-  }
-
-  .plans ul li{
-    width: 100%;
-  }
-
-  .plans ul li label{
-    display: block;
   }
 
   footer{
@@ -484,17 +473,13 @@ footer{
   }
 
   .footerLogo img{
-    width: 50%;  
+    width: 80%;
+    margin: 0 auto;
   }
 
-  .footerLogo{
-    margin-bottom: 30px;
-  }
-
-  .socialIcons{
-    margin-bottom: 30px;
-
-  }
+  .plans>li:nth-child(2n){
+    margin-left: 0px;
+  } 
 
   .socialIcons a{
     width: 26px;
@@ -505,5 +490,14 @@ footer{
   .copyRight{
     font-size: 10px;
     line-height: 16px;
+  }
+
+  .wrapper{
+    width: 187px;
+    margin: 0 auto;
+  }
+
+  .plans>li>h2, .plans>li>h2:first-child, .plans>li>h2:last-child{
+    border-radius: 6px 6px 0 0;
   }
 }
