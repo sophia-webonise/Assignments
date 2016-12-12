@@ -116,16 +116,16 @@ h1{
   border:1px solid #cac9c9;
   line-height: 20px;
   padding: 14px 5px;
-  border-radius: 0 3px 3px  0;
+  border-radius: 3px 0 0 3px;
 }
 
 .planDuration li a span{
   font-weight: 400;
 }
 
-.planDuration li:first-child a{
-  border-right: 1px solid white;
-  border-radius: 3px 0 0 3px;
+.planDuration li:last-child a{
+  margin-right: -1px; 
+  border-radius: 0 3px 3px 0;
 }
 
 .planDuration li a:hover, .planDuration li.active a{
@@ -476,8 +476,9 @@ footer{
     border-radius: 3px;
   }
 
-  .planDuration li:first-child a{
+  .planDuration li:last-child a{
     border-radius: 3px;
+    margin-right: none;
   }
 
   .plans ul{
