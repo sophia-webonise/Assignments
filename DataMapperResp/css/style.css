@@ -214,6 +214,10 @@ h1{
   background-color: #c1272c;
 }
 
+.plans>li.active h2 span{
+  color: #fdbdbd;
+}
+
 .plans>li.active ul{
   background-color:#f8f8f8; 
 }
